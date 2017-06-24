@@ -1,7 +1,7 @@
 # SortersAnalyzer
 Desktop application. It was used apache POI, reflection.
 
-Sorters
+Sorters. \n
 Sorts are implemented to sort arrays of integers of arbitrary length in the following ways:
 1) bubble sorting (pairwise);
 1.1) the review is carried out from the beginning to the end (the element "pops up");
@@ -11,7 +11,7 @@ Sorts are implemented to sort arrays of integers of arbitrary length in the foll
 4) recursive sort using the half-division method;
 5) using Arrays.sort (int [] a).
 
-Fillers
+Fillers. \n
 The generation of arrays of integers of a given length is implemented in the following ways:
 1) Already sorted array
 (1, 2, 3, 7, ....., max);
@@ -21,8 +21,8 @@ The generation of arrays of integers of a given length is implemented in the fol
 (Max, ..., 7, 3, 2, 1);
 4) An array containing elements that are randomly located.
 
-Analyzer
+Analyzer. \n
 Automatically generates statistics on the time of the various sorts. To do this, he independently finds all sorts of types, all types of filled arrays, using reflexion and annotations.
 
-Excel
+Excel. \n
 The obtained statistics are recorded in an XLS / XLSX file with the help of apache POI. In the document 4 tabs in each of which the table is written (each sort has its own line, the columns correspond to the number of elements of the array). And the table will store the sorting time. These tables are plotted.
